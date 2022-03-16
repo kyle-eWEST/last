@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+     <!-- font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- CSS FILES -->
+    <link rel="stylesheet" type="text/css" href="Dashboard.css">
+    <link rel="stylesheet" type="text/css" href="kelechiDp.css">
+
+    <!-- font family -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" type="text/css" href="kelechi1.css"> -->
+
+    <title>Create Investment</title>
+  </head>
+  <body>
+
+  	<!-- SEND YOUR BTC TEMPLATE -->
+  	<div class="container first-container">
+  		<div class="times-div">
+  			<a href="#">&times;</a>
+  		</div>
+  		<div class="container adj-container">
+  			<div class="cont-inner-div1">
+	  			<h3 id="send-btc" class="send-btc"></h3>
+	  			<h5>Make Deposit to the wallet below.</h5>
+	  			<button class="confirm">Confirm</button>
+  			</div>
+  			<div class="cont-inner-div2">
+	  			<div class="img-div"><img src="" id="img"></div>
+	  			<h3 id="wallet-ad" class="wallet-ad"></h3>
+  			</div>
+  			<div class="cont-inner-div3">
+	  			<h3 class="pending" style="display: none;"></h3>
+	  			<div class="img-div"><img src="spin.gif"></div>
+	  			<small>waiting for payments</small>
+	  			<p>Pay $<span id="span-amt" class="span-amt"></span> for Weekly Investment</p>
+  			</div>
+  		</div>		
+  	</div>
+  	<!-- END OF SEND YOUR BTC TEMPLATE --> 
+
+
+
+
+
+    <div class="container second-container">
+
+<!-- COMMON TEMPLATE TO EDIT START -->
+		<div id="section1" class="closeDp">
+       	 <div id="img-div"><img src="logo.JPG"></div>
+        	<div id="menu-button">
+	         <!-- <a href="" class="link-disappear">HOME</a>
+	          <a href="" class="link1 link-disappear">ABOUT</a>
+	          <a href=""  class="link1 link-disappear">FAQ</a>
+	          <a href=""  class="link1 link-disappear">TERMS AND CONDITIONS</a>
+	          <a href=""  class="link2 link-disappear">SUPPORT</a>
+	          <button id="button">DASHBOARD</button> -->
+	          <button id="buttonn">LOGOUT</button>
+
+          	 <!-- <span id="span" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span> -->
+        	</div>
+      </div>
+
+
+      <div id="section2" class="closeDp">
+        <h2>CREATE INVESTMENT</h2>
+      </div>
+
+
+        <!-- section 3 -->
+  <div class="section3-ps">
+    <div id="section3">
+
+      <div class="section3-grid-div section3-ht" id="section-height">
+
+        <!-- Add Home link -->
+        <div>
+          <a href="Dashboard.html" class="overview"><i class="fa fa-dropbox"></i>DASHBOARD</a>
+        </div>
+        
+        <div class="position-section3 dp-div">
+          <h6><i class="  fa fa-suitcase"></i><a href="">ABOUT</a></h6>
+          <!-- <div class="pop-div" id="pop-dp">
+            <a href="kelechiDp.html">Deposit Fund</a>
+            <a href="DepositAll.html">Your Deposits</a>
+          </div> -->
+        </div>
+
+
+        <!-- Add Earning History link -->
+        <div>
+          <a href=""><i class="fa fa-file-text"></i>TERMS AND CONDITIONS</a>
+        </div>
+
+        <div class="position-section3 wt-div">
+          <h6><i class="fa fa-credit-card"></i><a href="">FAQ</a></h6>
+          <!-- <div class="pop-div" id="pop-wt">
+            <a href="kelechiWt.html">Withdraw Fund</a>
+            <a href="WithdrawAll.html">Withdrawals History</a>
+          </div> -->
+
+        </div>
+        
+
+        <!-- Add Referrals link -->
+        <div>
+          <a href=""><i class="fa fa-database"></i>REFERRALS</a>
+        </div>
+        
+        <div>
+          <a href="Edit.html"><i class="fa fa-gears"></i>EDIT</a>
+        </div>
+        
+        <!--<div>
+          <a href=""><i class="fa fa-sign-out"></i>LOGOUT</a>
+        </div>-->
+      </div>
+    </div>
+
+
+
+    <!-- SECTION3 FOR MOBILE VIEW -->
+    <!-- USE IT IN ALL HTML FILES -->
+
+    <div class="section3-mb">
+      <div class="div-pt">
+        <div class="pointer-div">
+          <h3></h3>
+          <h3 class="h3-mg"></h3>
+          <h3></h3>
+        </div>
+      </div>
+
+      <div class="section3-hts">
+        <!-- Add Home link -->
+        <div>
+          <a href="Dashboard.html" class="overview"><i class="fa fa-dropbox"></i>DASHBOARD</a>
+        </div>
+        
+        <div class="">
+          <h6 class="dp-h6"><i class="fa fa-suitcase"></i><a href=""></a>ABOUT</h6>
+         <!-- <div id="" class="pops-div dp-dv">
+            <a href="kelechiDp.html">Deposit Fund</a>
+            <a href="DepositAll.html">Your Deposits</a>
+          </div> -->
+        </div>
+
+
+        <!-- Add Earning History link -->
+        <div>
+          <a href=""><i class="fa fa-file-text"></i>TERMS AND CONDITIONS</a>
+        </div>
+
+        <div class="">
+          <h6 class="wt-h6"><i class="fa fa-credit-card"></i><a href="">FAQ</a></h6>
+          <!-- <div id="" class="pops-div wt-dv">
+            <a href="kelechiWt.html">Withdraw Fund</a>
+            <a href="WithdrawAll.html">Withdrawals History</a>
+          </div> -->
+        </div>
+        
+
+        <!-- Add Referrals link -->
+        <div>
+          <a href=""><i class="fa fa-database"></i>REFERRALS</a>
+        </div>
+        
+        <div>
+          <a href="Edit.html"><i class="fa fa-gears"></i>EDIT</a>
+        </div>
+        
+        <!--<div>
+          <a href=""><i class="fa fa-sign-out"></i>LOGOUT</a>
+        </div>-->
+      </div>
+    </div>
+
+    <!-- END OF SECTION3 FOR MOBILE VIEW -->
+    
+  </div>
+
+
+      <!-- SECTION4 -->
+     <!-- <div id="section4" class="closeDp">
+        <div class="box-div">
+          <div class="img-div"><i class="fa fa-user"></i></div>
+          <div class="text-div">
+            <h3>RUBY MARTHA IVANOY</h3>
+            <h5>Welcome</h5>
+          </div>
+        </div>
+
+        <div class="box-div">
+          <div class="img-div"><i class="fa fa-calendar"></i></div>
+          <div class="text-div">
+            <h3>OCT-19-2021</h3>
+            <h5>Registration Date</h5>
+          </div>
+        </div>
+
+        <div class="box-div">
+          <div class="img-div"><i class='fa fa-wifi'></i></div>
+          <div class="text-div">
+            <h3>197.210.227.95</h3>
+            <h5>User IP</h5>
+          </div>
+        </div>
+
+        <div class="box-div">
+          <div class="img-div"><i class='fa fa-hourglass-half'></i></div>
+          <div class="text-div">
+            <h5>Running Days</h5>
+          </div>
+        </div>
+
+      </div> -->
+
+<!-- COMMON TEMPLATE TO EDIT END -->
+
+
+      <!-- DEPOSIT DIV -->
+      <div id="deposit-div" class="dp-cl">
+        <div id="deposit-h3-div">
+          <h3>Make an Investment:</h3>
+          <h2 id="more-than-h2"><span>info</span>-- The amount inputed is more than package selected</h2>
+          <h2 id="less-than-h2"><span>info</span>-- The amount inputed is less than package selected</h2>
+          <p class="select-plan">select a plan</p>
+        </div>
+
+        <div id="section1-deposit" class="grid-div">
+          <!-- ALPHA PLAN A -->
+          <div class="grid1-inner-div">
+            <form action=""><input class="checkbox checkbox-1" type="checkbox" name=""></form>
+            <p class="silver">Alpha Plan A</p>
+            <h3>DETAILS</h3>
+            <p class="dur">Duration (3 weeks) / ROI (15%)</p>
+            <p class="min-dep">Minimum Investment</p>
+            <p class="max-dep">Maximum Investment</p>
+          </div>
+          <!-- ALPHA PLAN A ROI -->
+          <div class="grid2-inner-div">
+            <p class="p-space"></p>
+            <h3>ANALYSIS</h3>
+            <p class="day">Daily (5%) </p>
+            <p class="min">$1,000</p>
+            <p class="max">Unlimited</p>
+          </div>
+
+          <!-- ALPHA PLAN B -->
+          <div class="grid1-inner-div">
+            <form action=""><input class="checkbox checkbox-2" type="checkbox" name=""></form>
+            <p class="silver">Alpha Plan B</p>
+            <h3>DETAILS</h3>
+            <p class="dur">Duration (3 weeks) / ROI (21%)</p>
+            <p class="min-dep">Minimum Investment</p>
+            <p class="max-dep">Maximum Investment</p>
+          </div>
+
+          <!-- ALPHA PLAN B ROI -->
+          <div class="grid2-inner-div">
+            <p class="p-space"></p>
+            <h3>ANALYSIS</h3>
+            <p class="day">Daily (7%)</p>
+            <p class="min">$3,000</p>
+            <p class="max">Unlimited</p>
+          </div>
+
+          <!-- ALPHA PLAN C -->
+          <div class="grid1-inner-div">
+            <form action=""><input class="checkbox checkbox-3" type="checkbox" name=""></form>
+            <p class="silver">Alpha Plan C</p>
+            <h3>DETAILS</h3>
+            <p class="dur">Duration (3 weeks) / ROI (30%)</p>
+            <p class="min-dep">Minimum Investment</p>
+            <p class="max-dep">Maximum Investment</p>
+          </div>
+
+          <!-- ALPHA PLAN C ROI -->
+          <div class="grid2-inner-div">
+            <p class="p-space"></p>
+            <h3>ANALYSIS</h3>
+            <p class="day">Daily (10%)</p>
+            <p class="min">$5,000</p>
+            <p class="max">Unlimited</p>
+          </div>
+
+          <!-- ALPHA PLAN D -->
+          <div class="grid1-inner-div">
+            <form action=""><input class="checkbox checkbox-4" type="checkbox" name=""></form>
+            <p class="silver">Alpha Plan D</p>
+            <h3>DETAILS</h3>
+            <p class="dur">Duration (3 weeks) / ROI (45%)</p>
+            <p class="min-dep">Minimum Investment</p>
+            <p class="max-dep">Maximum Investment</p>
+          </div>
+
+          <!-- ALPHA PLAN D ROI -->
+          <div class="grid2-inner-div">
+            <p class="p-space"></p>
+            <h3>ANALYSIS</h3>
+            <p class="day">Daily (15%)</p>
+            <p class="min">$10,000</p>
+            <p class="max">Unlimited</p>
+          </div>
+        </div>
+
+        <!-- YOUR ACCOUNT BALANCE AND PAYMENT METHOD -->
+        <div id="section2-deposit">
+          <div class="grid1-inner-div">
+            <p class="acct">Your account balance ($):</p>
+            <p class="empty-p"></p>
+            <p id="spend">Amount to Invest ($):</p>
+            <h2 id="method-h2">Select Payment Method</h2>
+            <!-- <form action=""><input type="checkbox" name=""></form> -->
+            <p id="btc">
+            	<select>
+	            	<option value="select">-- Select Method --</option>
+	            	<option class="coin" value="eth">Ethereum</option>
+	            	<option class="coin" value="btc">Bitcoin</option>
+	            	<option class="coin" value="doge">Dogecoin</option>
+                <option class="coin" value="usdt">Tether</option>
+	            	<option class="card" value="master">Master Card</option>
+	            	<option class="card" value="visa">Visa Card</option>
+            	</select>
+        	</p>
+            <div id="btn-div">
+              <a class="btn-dp"><button class="coin-btn">INVEST</button></a>
+              <a href="https://www.moonpay.com/" target="_blank" class="link-dp" style="display: none;"><button class="card-btn">INVEST</button></a>
+            </div>
+
+          </div>
+
+          <div class="grid2-inner-div">
+            <p class="acct">$0.00</p>
+            <p class="empty-p"></p>
+            <div id="input-div"><input class="amount" type="number" min="1" placeholder="Amount(0.00)" name="" autofocus></div>
+            <h2 id="empty-h2"></h2>
+            <p id="empty-p"></p>
+            <div id="empty-div" ></div>
+          </div>
+        </div>
+
+      </div>
+      <!-- END OF DEPOSIT DIV-->
+
+
+
+
+<!-- SECTION9 COMMON TEMPLATE TO EDIT START -->
+
+      <div id="section9" class="sc9">
+        <div class="box-div">
+          <div id="img-div"><img src="logo.JPG"></div>
+          <div id="small-div"><small>&copy Decentrasea All Right Reserved</small></div>
+        </div>
+
+        <!-- Add link to links here -->
+        <!-- <div class="box-div link">
+          <a href="">HOME</a>
+          <a href="" class="link1">ABOUT US</a>
+          <a href="" class="link1">FAQ</a>
+          <a href="">SUPPORT</a>
+        </div>
+
+        <div class="box-div paragraph">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehender.</p>
+        </div> -->
+
+      </div>
+
+
+      <!-- <div id="myNav" class="overlay" class="closeDp">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="#">HOME</a>
+          <a href="#">ABOUT</a>
+          <a href="#">FAQ</a>
+          <a href="#">TERMS AND CONDITIONS</a>
+          <a href="#">SUPPORT</a>
+        </div>
+      </div> -->
+
+
+<!-- SECTION9 COMMON TEMPLATE TO EDIT END -->
+
+      <script src="Dashboard.js"></script>
+      <script src="newdash.js"></script>
+
+    </div>
+    
+  </body>
+</html>

@@ -1,0 +1,459 @@
+body{
+	padding:0px;
+}
+
+/* SEND YOUR BTC TEMPLATE */
+.first-container{
+	color:white;
+	background:#005ce6;
+	min-height: 100vh;
+	min-width:100%;
+	position: relative;
+	display:none;
+}
+
+.times-div{
+	width:30px;
+	height: 40px;
+	position: absolute;
+	top:20px; /* 10px initial */
+	right:30px;
+}
+
+/* MEDIA QUERY FOR .times-div */
+@media (max-width: 500px){
+	.times-div{
+		top:40px; /* 10px initial */
+	}
+}
+
+.times-div a{
+	text-decoration: none;
+	font-size: 40px;
+	font-weight: bold;
+	color:white;
+}
+
+/* CONT-INNER-DIV1 */
+.cont-inner-div1{
+	padding:10px 20px;
+}
+
+.cont-inner-div1 h3{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.cont-inner-div1 button{
+	border:none;
+	color:white;
+	background: green;
+	border-radius: 20px;
+	margin-top: 15px;
+}
+
+
+.cont-inner-div1 button:hover{
+	color:white;
+	background: #808080;
+	transition: 0.5s;
+}
+
+.cont-inner-div1 h5{
+	font-size: 15px;
+}
+
+/* CONT-INNER-DIV2 */
+.cont-inner-div2{
+	padding:10px 20px;
+}
+
+.cont-inner-div2 h3{
+	background:rgba(153, 153, 153, 0.8);
+	color:#ffff;
+}
+
+.cont-inner-div3 h3{
+	letter-spacing: 1px;
+}
+
+
+/* @MEDIA MIN-WIDTH 1000PX */
+@media(min-width:1000px){
+	.cont-inner-div2 h3{
+    	width:600px;
+    	margin:auto;
+	}
+}
+
+/* @MEDIA MIN-WIDTH 666PX */
+@media(min-width: 666px){
+	.first-container{
+		padding-top:50px;
+	}
+
+	.cont-inner-div1 button{
+		padding:10px 10px 12px 10px;
+		width:200px;
+	}
+
+	.cont-inner-div2 .img-div{
+		width:250px;
+		height:250px;
+		margin:auto;
+	}
+
+	.cont-inner-div2 img{
+		width:100%;
+		height: 100%;
+    }
+
+    .cont-inner-div2 h3{
+    	font-size: 20px;
+		padding:10px;
+		margin-top: 20px;
+		text-align: center;
+		word-wrap: break-word;
+	}
+
+	.cont-inner-div3 .img-div{
+		width:100px;
+		height: 100px;
+		margin:0px auto 0px auto;
+	}
+
+	.cont-inner-div3 img{
+		width:100%;
+		height: 100%;
+	}
+}
+
+
+/* @MEDIA MAX-WIDTH 665PX */
+@media(max-width: 665px){
+	.first-container{
+		padding-top:100px;
+	}
+
+	.cont-inner-div1 button{
+		padding:10px 10px 10px 10px;
+		width:120px;
+	}
+
+	.cont-inner-div2 .img-div{
+		width:180px;
+		height: 180px;
+		margin:auto;
+	}
+
+	.cont-inner-div2 img{
+		width:100%;
+		height: 100%;
+    }
+
+    .cont-inner-div2 h3{
+    	font-size: 13px;
+		padding:10px;
+		margin-top: 20px;
+		text-align: center;
+		word-wrap: break-word;
+		line-height: 1.5em;
+	}
+
+	.cont-inner-div3 .img-div{
+		width:100px;
+		height:100px;
+		margin:20px auto 5px auto;
+	}
+
+.cont-inner-div3 img{
+		width:100%;
+		height: 100%;
+	}
+}
+
+
+/* CONT-INNER-DIV3 */
+.cont-inner-div3{
+	text-align: center;
+}
+
+.cont-inner-div3 h3{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+/*
+.cont-inner-div3 .img-div{
+	width:50px;
+	height: 50px;
+	margin:20px auto 5px auto;
+}
+
+.cont-inner-div3 img{
+	width:100%;
+	height: 100%;
+}
+*/
+
+.cont-inner-div3 small{
+	letter-spacing: 1px;
+}
+
+.cont-inner-div3 p{
+	margin-top:5px;
+	color:lightblue;
+	font-weight: bold;
+}
+
+/* END OF SEND YOUR BTC TEMPLATE */
+
+
+
+
+
+/* DEPOSIT-DIV */
+/*
+.second-container{
+	display: none;
+}
+*/
+
+#deposit-div{
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+#deposit-h3-div{
+	padding-left: 10px;
+	padding-bottom:10px;
+}
+
+#deposit-h3-div h2{
+	font-size:15px;
+	font-weight: normal;
+	color:#ff6666;
+	background: #ffe6e6;
+	padding:10px 10px;
+	border-radius: 3px;
+	display: none;
+}
+
+#deposit-h3-div h2 span{
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+#deposit-h3-div h3{
+	font-size:23px;
+	color:white;
+}
+
+#deposit-h3-div p{
+	margin-bottom: 0px;
+}
+
+#deposit-h3-div .select-plan{
+	color:white;
+}
+
+/*grid-div*/
+.grid-div{
+	display: grid;
+	grid-template-columns: 3fr 1.5fr;
+}
+
+/*grid1-inner-div*/
+.grid1-inner-div{
+	margin-bottom: 10px;
+	padding-top: 10px;
+	background:#52527a;
+	color:white;
+	border-right: 1px solid #7575a3;
+}
+
+form{
+	margin-left:10px;
+}
+
+.grid1-inner-div form{
+	display: inline;
+}
+
+.grid1-inner-div .silver{
+	display: inline;
+	background:#52527a;
+	color:white;
+}
+
+.grid1-inner-div h3{
+	background:#00cc00;
+	color:white;
+	padding:10px 5px;
+	font-size:18px;
+	margin-top:10px;
+	margin-bottom:0px;
+}
+
+.grid1-inner-div p{
+	margin:0px;
+	padding:10px 5px;
+	font-size:15px;
+}
+
+.grid1-inner-div .dur{
+	background:#52527a;
+	color:white;
+}
+
+.grid1-inner-div .min-dep{
+	background:#7575a3;
+	color:white;
+}
+
+.grid1-inner-div .max-dep{
+	background:#52527a;
+	color:white;
+}
+
+
+/*grid2-inner-div*/
+.grid2-inner-div{
+	background:#52527a;
+	color:white;
+	margin-bottom: 10px;
+}
+
+.grid2-inner-div p{
+	margin:0px;
+	padding:10px 5px;
+	font-size:15px;
+}
+
+.grid2-inner-div .p-space{
+	background:#52527a;
+	padding:17px 0px;
+}
+
+.grid2-inner-div h3{
+	background:#00cc00;
+	color:white;
+	padding:10px 5px;
+	font-size:18px;
+	margin-top:10px;
+	margin-bottom:0px;
+}
+
+.grid2-inner-div .min{
+	background:#7575a3;
+}
+
+
+/*section2-deposit*/
+#section2-deposit{
+	display: grid;
+	grid-template-columns: 3fr 1.5fr;
+}
+
+
+/*section2-deposit grid1-inner-div*/
+#section2-deposit .grid1-inner-div{
+	padding-top: 0px;
+}
+
+#section2-deposit .grid1-inner-div p.acct{
+}
+
+#section2-deposit .grid1-inner-div p.empty-p{
+	background:#7575a3;
+	padding:17px 0px;
+}
+
+#section2-deposit .grid1-inner-div p#spend{
+}
+
+#section2-deposit .grid1-inner-div #method-h2{
+	background:#7575a3;
+	font-size:18px;
+	padding:10px 5px;
+}
+
+
+#section2-deposit .grid1-inner-div p#btc{
+	
+}
+
+#section2-deposit .grid1-inner-div p#btc select{
+	width: 100%;
+	padding:5px 10px;
+	border-radius: 3px;
+	background: #ffff;
+	color:black;
+}
+
+#section2-deposit .grid1-inner-div #btn-div{
+	background:#7575a3;
+	margin-top: 5px;
+	padding:10px 5px;
+}
+
+#section2-deposit .grid1-inner-div #btn-div .coin-btn,
+#section2-deposit .grid1-inner-div #btn-div .card-btn{
+	background:#00cc00;
+	color:white;
+	border:none;
+	border-radius: 5px;
+	padding:8px 20px;
+	font-size: 13px;
+}
+
+#section2-deposit .grid1-inner-div #btn-div .coin-btn:hover,
+#section2-deposit .grid1-inner-div #btn-div .card-btn:hover{
+	background:#52527a;
+	transition: 0.8s;
+}
+
+/*section2-deposit grid2-inner-div*/
+#section2-deposit .grid2-inner-div{
+}
+
+#section2-deposit .grid2-inner-div p.acct{
+}
+
+#section2-deposit .grid2-inner-div p.empty-p{
+	background:#7575a3;
+	padding:17px 0px;
+	margin:0px;
+}
+
+#section2-deposit .grid2-inner-div #input-div{
+	margin:0px;
+	padding:3px 5px;
+}
+
+#section2-deposit .grid2-inner-div #input-div input{
+	padding:7px 0px;
+	border:none;
+	border-radius:3px;
+	text-align: center;
+	width:100%;
+	background: #ffff;
+	color:black;
+}
+
+#section2-deposit .grid2-inner-div #empty-h2{
+	background:#7575a3;
+	margin:0px;
+	padding:20.5px 0px;
+}
+
+#section2-deposit .grid2-inner-div p#empty-p{
+	padding:18.5px 0px;
+	height: 63px;
+	margin:0px;
+}
+
+#section2-deposit .grid2-inner-div #empty-div{
+	background:#7575a3;
+	padding:28px 0px;
+}

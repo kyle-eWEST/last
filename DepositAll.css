@@ -1,0 +1,21 @@
+
+#all-dp{
+	padding: 40px 10px;
+}
+
+#all-dp h5{
+	text-align: center;
+	color:white;
+}
+
+#all-dp .trans-div{
+	background:#cce6ff;
+	border-radius:5px;
+	margin-top: 40px;
+	padding:15px 10px 5px 10px;
+	color:#8c8c8c;
+} 
+
+.trans-div p{
+	border-bottom: 1px dotted #cccc;
+} 

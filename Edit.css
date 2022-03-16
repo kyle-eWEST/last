@@ -1,0 +1,97 @@
+
+
+#edit-div{
+	padding-top: 30px;
+}
+
+
+#edit-div h6, #edit-div h5{
+	color:white;
+}
+
+.form-div{
+	padding:0px 10px 0px 10px;
+}
+
+.form-div h5{
+	
+	margin-left: 10px;
+}
+
+.form-div h5 span{
+	color:rgba(140,140,140,0.5);
+	font-size:15px;
+}
+
+.from-inner-div{
+	margin-bottom: 20px;
+}
+
+.from-inner-div select{
+	width:100%;
+	padding:10px 20px;
+}
+
+.from-inner-div input{
+	width:100%;
+	padding:10px 5px 10px 20px;
+	border-radius:2px;
+	border:none;
+}
+
+.form-div #lv-pw{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	color:rgba(255,255,153,0.4);
+}
+
+.form-div #tp-pw{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	color:rgba(204,0,82,0.5);
+}
+
+.form-div .submit-div{
+	height: 45px;
+	position: relative;
+	margin-top:55px;
+}
+
+.form-div .submit-div .cancel-link{
+	text-decoration: none;
+	color:white;
+	position: absolute;
+	top:5px;
+}
+
+.form-div .submit-div .cancel-link:hover{
+	transition: 0.2s;
+	color:rgba(204,0,82,0.5);
+}
+
+.form-div .submit-div input{
+	color:white;
+	background:green;
+	border:none;
+	border-radius:5px;
+	padding:10px 10px;
+	width:200px;
+	position: absolute;
+	right: 0px;
+}
+
+
+
+.form-div .submit-div input:hover{
+	transition: 0.7s;
+	color:black;
+	background: white;
+}
+
+#profile-ud{
+	text-align: center;
+	color:green;
+	margin-top: 20px;
+}

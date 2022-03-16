@@ -1,0 +1,71 @@
+
+/*
+COLORS
+green:#00cc00;
+body:#29293d;
+min-dep:#7575a3;
+max-dep:#52527a;
+*/
+
+
+#deposit-div{
+	padding: 50px 0px 30px 0px;
+}
+
+#deposit-div #select-input{
+	width:100%;
+	padding:12px 10px;
+}
+
+
+#deposit-div h3{
+	margin-bottom: 20px;
+	color:white;
+}
+
+#deposit-div h5{
+	color:rgba(0,204,0,0.4);
+	margin-bottom: 20px;
+	display: none;
+}
+
+
+/* MEDIA FOR DEPOSIT-DIV H5 */
+@media(max-width:500px){
+	#deposit-div h5{
+		font-size: 16px;
+		letter-spacing: 1px;
+	}
+}
+
+
+#deposit-div p{
+	margin-bottom: 0px;
+	padding-bottom: 5px;
+	color:white;
+}
+
+#deposit-div .input{
+	width:100%;
+	padding:10px;
+	border-radius:3px;
+	margin-bottom: 25px;
+}
+
+#deposit-div #submit{
+	border:none;
+	padding:8px 20px;
+	border-radius: 3px;
+	color:white;
+	background:#00cc00;
+}
+
+/* FORM */
+#form #select-input{
+	background:#ffff;
+	color:black;
+}
+
+#form #amount{
+	margin-top: 20px;
+}
